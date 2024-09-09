@@ -139,7 +139,7 @@ export default function Home() {
           <div className="md:w-1/2 mt-8 md:mt-0">
           <h1 className="text-4xl font-bold mb-4">Easily control your billing & invoicing.</h1>
           <p className="text-gray-400 mb-8">
-            We consider the payment methods you&apos;ll offer your customers when you start your business. This is an important part of managing your business cash flow and meeting your customer's needs.
+            We consider the payment methods you will offer your customers when you start your business. This is an important part of managing your business cash flow and meeting your customer's needs.
           </p>
           <div className="flex space-x-4">
             <Image src="/assets/APPLE.png" alt="Download on App Store" width={120} height={40} />

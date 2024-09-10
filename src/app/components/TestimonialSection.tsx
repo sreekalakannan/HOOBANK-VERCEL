@@ -33,8 +33,8 @@ export const TestimonialSection = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {testimonials.map((testimonial, index) => (
           <div key={index} className="bg-gray-800 p-6 rounded-lg">
-            <div className="text-teal-400 text-4xl mb-4">"</div>
-            <p className="mb-4">{testimonial.quote}</p>
+            <div className='text-teal-400 text-4xl mb-4'></div>
+            <p className="mb-4">{testimonial.quote}&#34;</p>
 
             <div className="flex items-center">
               <div className="w-16 h-16 relative rounded-full overflow-hidden mr-4">

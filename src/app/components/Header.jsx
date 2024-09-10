@@ -2,7 +2,7 @@
 <div>
   <h1 className="text-5xl font-bold mb-6">
     You do the business,<br />
-    we'll handle the money.
+    we&#39;ll handle the money.
   </h1>
   <p className="text-gray-400 mb-8">
     With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.

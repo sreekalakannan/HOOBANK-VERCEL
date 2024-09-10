@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import Image from 'next/image';
+
 import { Instagram, Facebook, Twitter, Linkedin } from 'lucide-react';
 
 const Footer = () => {
@@ -9,11 +11,11 @@ const Footer = () => {
           {/* Logo and description */}
           <div className="col-span-1">
             <Link href="/" className="flex items-center mb-4">
-              <img
-                src="/assets/logofooter.png" // Change this to the path of your logo file
+              <Image
+                src="/assets/logofooter.png" 
                 alt="HooBank Logo"
-                className="w-10 h-10 mr-2" // Adjust the size as needed
-              />
+                width={10} height={10} 
+                />
               <span className="text-2xl font-bold text-white">HooBank</span>
             </Link>
             <p className="text-sm">A new way to make payments easy, reliable and secure.</p>
